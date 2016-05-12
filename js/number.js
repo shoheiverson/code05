@@ -15,5 +15,8 @@ function isMultipleOf5(a){
     else{return 0;}
 }
 
-function divideBy2(){
+function divideBy2(a){
+    var b=a%2
+    if(b==0){return a/2}
+    else{return (a+1)/2}
 }
