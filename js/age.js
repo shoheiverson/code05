@@ -3,5 +3,5 @@ function isMajority(a){
 }
 
 function inCompulsoryEducation(a){
-    return (a>=6)&&(a<16)
+    return (a>=6)&&(a<16);
 }
