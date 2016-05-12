@@ -9,7 +9,10 @@ function isAcceptableNumber(a){
     return !(b==0||c==0);
 }
 
-function isMultipleOf5(){
+function isMultipleOf5(a){
+    var b=a%5;
+    if(b==0){return 1;}
+    else{return 0;}
 }
 
 function divideBy2(){
